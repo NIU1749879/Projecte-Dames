@@ -1,1 +1,1 @@
-# Projecte-Dames
+Fitxer README fer presentacio del projecte
