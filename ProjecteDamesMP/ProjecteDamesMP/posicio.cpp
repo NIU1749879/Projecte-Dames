@@ -5,6 +5,19 @@
 
 using namespace std;
 
+Posicio::Posicio(const string& pos)
+{
+    fromString(pos);
+}
+
+
+bool Posicio::operator==(const Posicio& pos) const
+{
+    bool iguals = false;
+    if (m_fila == pos.getFila() && m_columna == pos.getColumna())
+        iguals = true;
+    return iguals;
+}
 
 string Posicio::toString() const
 {
@@ -28,11 +41,11 @@ ifstream& operator>>(ifstream& fitxer, Posicio& posicio)
     return fitxer;
 }
 
-ofstream& operator<<(ofstream& fitxer, const Posicio& posicio)
+ostream& operator<<(ostream& out, const Posicio& pos)
 {
-    string posAux = posicio.toString();
-    fitxer << posAux;
-    return fitxer;
+    string posAux = pos.toString();
+    out << posAux;
+    return out;
 }
 
 void llegeixFitxa(const string& nomFitxer, char& tipusFitxa, Posicio& posicio)

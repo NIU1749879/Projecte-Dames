@@ -1,5 +1,3 @@
-﻿  posicio.cpp
-  tauler.cpp
-  Generando código...
-MSVCRTD.lib(exe_main.obj) : error LNK2019: símbolo externo main sin resolver al que se hace referencia en la función "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+﻿  tauler.cpp
+tauler.obj : error LNK2019: símbolo externo "void __cdecl llegeixTauler(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,char (* const)[8])" (?llegeixTauler@@YAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAY07D@Z) sin resolver al que se hace referencia en la función "public: void __cdecl Tauler::inicialitza(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?inicialitza@Tauler@@QEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
 C:\Users\esntk\ProjecteDames\ProjecteDamesMP\x64\Debug\ProjecteDamesMP.exe : fatal error LNK1120: 1 externos sin resolver

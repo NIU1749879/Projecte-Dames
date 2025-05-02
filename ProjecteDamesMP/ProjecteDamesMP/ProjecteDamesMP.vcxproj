@@ -128,7 +128,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="fitxa.cpp" />
-    <ClCompile Include="miviment.cpp" />
+    <ClCompile Include="moviment.cpp" />
     <ClCompile Include="posicio.cpp" />
     <ClCompile Include="tauler.cpp" />
   </ItemGroup>
@@ -137,6 +137,7 @@
     <ClInclude Include="moviment.h" />
     <ClInclude Include="posicio.h" />
     <ClInclude Include="tauler.h" />
+    <ClInclude Include="tauler.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
